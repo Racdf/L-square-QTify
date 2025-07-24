@@ -9,8 +9,6 @@ export default function HomePage() {
   const { data } = useOutletContext();
   const { newAlbums, topAlbums, songs, genres } = data;
 
-  console.log("genres", genres);
-
   return (
     <>
       <Hero />
